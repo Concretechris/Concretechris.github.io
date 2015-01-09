@@ -17,7 +17,7 @@ $(document).ready(function() {
 //add spans function and global div/span variables
 
 var num_spans = 1;
-var add_spans = function()
+function add_spans()
 {
 for (var i = 1; i <= num_spams; i++)
   {
