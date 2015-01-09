@@ -5,7 +5,7 @@ $(document).ready(function() {
   $("h1").mouseleave(function() {
     $("h1").fadeTo("slow", 1.0);
   });
-  $("div").click(function(){
+  $("div").mouseenter(function(){
     $(this).fadeTo('fast', 1.0);
     
   });
