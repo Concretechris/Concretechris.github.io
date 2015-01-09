@@ -8,3 +8,9 @@ div
 	display: inline-block;
 	opacity: .2;
 }
+
+.black
+{
+	background-color: black;
+	opacity: 1;
+}
