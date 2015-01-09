@@ -21,6 +21,6 @@ var add_spans = function()
 {
 for (var i = 1; i <= num_spams; i++)
   {
-    document.getElementById("demo").innerHTML = "Hello World!";
+    document.getElementsByClass("container").innerHTML = "Hello World!";
   }
 }
