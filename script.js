@@ -6,6 +6,6 @@ $(document).ready(function() {
     $("h1").fadeTo("slow", 1.0);
   });
   $("div").mouseenter(function(){
-    $(this).addClas("black");
+    $(this).addClass("black");
   });
 });
