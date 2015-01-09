@@ -16,11 +16,12 @@ $(document).ready(function() {
 
 //add spans function and global div/span variables
 
-var num_spans = 1;
 function add_spans()
 {
-for (var i = 1; i <= num_spams; i++)
-  {
-    document.getElementsByClass("container").innerHTML = "Hello World!";
-  }
+  var num_spans = 1;
+  
+  for (var i = 1; i <= num_spams; i++)
+    {
+      document.getElementsByClass("container").innerHTML = "Hello World!";
+    }
 }
