@@ -8,9 +8,6 @@ $(document).ready(function() {
   $(".cell").mouseenter(function(){
     $(this).addClass("black");
   });
-  $("button").click(function(){
-    $(".cell").removeClass("black");
-  });
 });
 
 
