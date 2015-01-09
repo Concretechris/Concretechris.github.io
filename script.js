@@ -18,9 +18,7 @@ $(document).ready(function() {
 
 function add_spans()
 {
-  var num_spans = 1;
-  
-  for (var i = 1; i <= num_spans; i++)
+  for (var i = 1; i <= 2; i++)
     {
       document.getElementsByClass("container").innerHTML = "Hello World!";
     }
