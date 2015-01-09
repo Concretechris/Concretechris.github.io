@@ -12,3 +12,15 @@ $(document).ready(function() {
     $(".cell").removeClass("black");
   });
 });
+
+
+//add spans function and global div/span variables
+
+var num_spans = 1;
+var add_spans = function()
+{
+for (var i = 1; i <= num_spams; i++)
+  {
+    document.getElementById("demo").innerHTML = "Hello World!";
+  }
+}
