@@ -20,6 +20,6 @@ function add_spans()
 {
   for (var i = 1; i <= 2; i++)
     {
-      document.getElementsByClassName("container").innerHTML = "Hello World!";
+      document.getElementsByClassName("container").innerHTML = "<span>This is a test</span>";
     }
 }
