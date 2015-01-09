@@ -8,4 +8,7 @@ $(document).ready(function() {
   $("div").mouseenter(function(){
     $(this).addClass("black");
   });
+  $("button").click(function(){
+    $("div").removeClass("black");
+  });
 });
