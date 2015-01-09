@@ -7,8 +7,8 @@ $(document).ready(function() {
   });
   $("div").mouseenter(function(){
     $(this).css({
-      backgroundColor: 'black',
-      opacity: '1';
+      background-color: black,
+      opacity: 1;
       });
   });
 });
