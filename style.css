@@ -1,12 +1,10 @@
-span
-{
-	clear: left;
-}
+
 
 .container
 {
 	width: 960px;
 	display: block;
+	clear: left;
 }
 
 .cell 
