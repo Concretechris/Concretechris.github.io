@@ -8,8 +8,10 @@ $(document).ready(function() {
   $(".cell").mouseenter(function(){
     $(this).addClass("black");
   });
+    $("button").click(function(){
+    $(".cell").removeClass("black");
+  });
 });
-
 
 //add spans function and global div/span variables
 
