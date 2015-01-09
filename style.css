@@ -25,6 +25,6 @@
 
 button
 {
-	float: clear;
+	clear: left;
 	display: block;
 }
