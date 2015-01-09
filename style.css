@@ -4,7 +4,8 @@
 {
 	width: 960px;
 	display: block;
-	clear: left;
+	float: left;
+	
 }
 
 .cell 
