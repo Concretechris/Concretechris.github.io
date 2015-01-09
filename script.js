@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("h1").fadeTo("slow", 1.0);
   });
   $("div").mouseenter(function(){
-    $(this).fadeTo('fast', 1.0);
+    $(this).css('color', 'black');
     
   });
 });
