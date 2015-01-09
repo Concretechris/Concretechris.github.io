@@ -5,4 +5,5 @@ div
 	width: 100px;
 	border-radius: 10%;
 	display: inline-block;
+	opacity: 0;
 }
