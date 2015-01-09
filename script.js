@@ -8,17 +8,11 @@ $(document).ready(function() {
   $(".cell").mouseenter(function(){
     $(this).addClass("black");
   });
-    $("button").click(function(){
-    $(".cell").removeClass("black");
-  });
 });
 
 //add spans function and global div/span variables
 
-function add_spans()
-{
-  for (var i = 1; i <= 2; i++)
-    {
-      document.getElementsByClassName("container").innerHTML = "<span>This is a test</span>";
-    }
+function myFunction() {
+    var para = document.createElement("P");
+    var t = document.createTextNode("This is a paragraph.");
 }
