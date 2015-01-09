@@ -5,10 +5,10 @@ $(document).ready(function() {
   $("h1").mouseleave(function() {
     $("h1").fadeTo("slow", 1.0);
   });
-  $("div").mouseenter(function(){
+  $(".cell").mouseenter(function(){
     $(this).addClass("black");
   });
   $("button").click(function(){
-    $("div").removeClass("black");
+    $(".cell").removeClass("black");
   });
 });
