@@ -13,6 +13,9 @@ $(document).ready(function() {
         $(".cell").height("200px");
         $(".cell").width("200px");
   });
+      $("#reset").click(function(){
+        $("div").remove();
+      }
 });
 
 //add spans function and global div/span variables
