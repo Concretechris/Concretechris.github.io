@@ -17,7 +17,7 @@ $(document).ready(function() {
     }
       $(".cell").mouseenter(function(){
     $(this).addClass("black");
-  });
+  }
 });
   $("h1").mouseenter(function() {
     $("h1").fadeTo("slow", .5);
