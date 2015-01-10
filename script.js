@@ -21,12 +21,8 @@ $(document).ready(function() {
         
         for (var i = 1; i <= rows; i++)
         {
-          $(".new_container").append("<div class = "container"></div>");
-        };
-        //for (var j = 1; j <= col; j++)
-        //{
-          //$(".container").append("<div class = "cell"></div>");
-        //}
+          $(".new_container").append("<p>What the fuck?!?</p>");
+        }
       });
 });
 
