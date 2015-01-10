@@ -14,8 +14,3 @@ $(document).ready(function() {
 });
 
 //add spans function and global div/span variables
-
-function myFunction() {
-    var para = document.createElement("P");
-    var t = document.createTextNode("This is a paragraph.");
-}
