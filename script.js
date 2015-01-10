@@ -8,7 +8,7 @@ $(document).ready(function() {
   $(".cell").mouseenter(function(){
     $(this).addClass("black");
   });
-      $("button").click(function(){
+      $("clear").click(function(){
         $(".cell").removeClass("black");
         $(".cell").height("200px");
         $(".cell").width("200px");
