@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
       $("#reset").click(function(){
         $("div").remove();
-      }
+      });
 });
 
 //add spans function and global div/span variables
