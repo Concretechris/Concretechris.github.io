@@ -26,8 +26,8 @@ $(document).ready(function() {
         }
         for (var j =1 1 j <= col; j++)
         {
-          $c = $("<div class = 'cell'></div>")
-          $(".new_container").append($c);
+          $c = $("<div class = 'cell'></div>");
+          $(".container").append($c);
         }
       });
 });
