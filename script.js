@@ -23,7 +23,6 @@ $(document).ready(function() {
         {
           $d = $("<div class = 'container'></div>");
           $(".new_container").append($d);
-          $(this).addClass("container");
         }
       });
 });
