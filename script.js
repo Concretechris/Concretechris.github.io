@@ -21,7 +21,11 @@ $(document).ready(function() {
         
         for (var i = 1; i <= col; i++)
         {
-          $(".new_container").append("<p>Stuff Happens, Magical Stuff</p>");
+          $(".new_container").append("<div class = "container"></div>");
+            for (var j = 1; j <= rows; j++)
+            {
+              $(".container").append("<div class = "cell"></div>");
+            }
         }
       });
 });
