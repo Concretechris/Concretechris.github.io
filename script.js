@@ -30,6 +30,9 @@ $(document).ready(function() {
           $(".container").append($c);
         }
       });
+      $(".cell").mouseenter(function(){
+      $(this).addClass("black");
+  });
 });
 
 //add spans function and global div/span variables
