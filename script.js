@@ -17,7 +17,7 @@ $(document).ready(function() {
         $(".container").remove();
         $(".cell").remove();
         var col = prompt("Please enter the number of columns: ");
-        var rows = prompt("Please enter the number rows: ")
+        var rows = prompt("Please enter the number rows: ");
       });
 });
 
