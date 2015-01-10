@@ -18,7 +18,11 @@ $(document).ready(function() {
         $(".cell").remove();
         var col = prompt("Please enter the number of columns: ");
         var rows = prompt("Please enter the number rows: ");
-        $(".new_container").append("<p>Stuff Happens, Magical Stuff</p>");
+        
+        for (var i = 1; i <= col; i++)
+        {
+          $(".new_container").append("<p>Stuff Happens, Magical Stuff</p>");
+        }
       });
 });
 
