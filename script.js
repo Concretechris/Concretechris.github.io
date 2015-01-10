@@ -16,9 +16,9 @@ $(document).ready(function() {
       $("#reset").click(function(){
         $(".container").remove();
         $(".cell").remove();
-        var col = prompt("Please enter the number of columns: ");
-        var rows = prompt("Please enter the number rows: ");
-        $("body").append("<div class="container"><div class="cell"/><div class="cell"/><div class="cell"/><div class = "cell"/></div>");
+        //var col = prompt("Please enter the number of columns: ");
+        //var rows = prompt("Please enter the number rows: ");
+        //$("body").append("<div class="container"><div class="cell"/><div class="cell"/><div class="cell"/><div class = "cell"/></div>");
       });
 });
 
