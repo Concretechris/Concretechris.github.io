@@ -18,6 +18,13 @@ $(document).ready(function() {
         $(".cell").remove();
         var col = prompt("Please enter the number of columns: ");
         var rows = prompt("Please enter the number rows: ");
+        var col_width = 960/col;
+        var row_height = 960/rows;
+        
+        for (var i = 1; i <=rows; i++)
+          {
+            $(".container").append("<div class="cell" width = "960"/>");
+          }
       });
 });
 
