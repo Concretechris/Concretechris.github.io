@@ -15,7 +15,10 @@ $(document).ready(function() {
       $c = $("<div class = 'cell'></div>");
       $(".container").append($c);
     }
+      $(".cell").mouseenter(function(){
+    $(this).addClass("black");
   });
+});
   $("h1").mouseenter(function() {
     $("h1").fadeTo("slow", .5);
   });
