@@ -24,7 +24,7 @@ $(document).ready(function() {
           $d = $("<div class = 'container'></div>");
           $(".new_container").append($d);
         }
-        for (var j =1 1 j <= col; j++)
+        for (var j = 1; j <= col; j++)
         {
           $c = $("<div class = 'cell'></div>");
           $(".container").append($c);
