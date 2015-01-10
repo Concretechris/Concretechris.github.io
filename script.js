@@ -19,13 +19,13 @@ $(document).ready(function() {
         var col = prompt("Please enter the number of columns: ");
         var rows = prompt("Please enter the number rows: ");
         
-        for (var i = 1; i <= col; i++)
+        for (var i = 1; i <= rows; i++)
         {
           $(".new_container").append("<div class = "container"></div>");
-            for (var j = 1; j <= rows; j++)
-            {
-              $(".container").append("<div class = "cell"></div>");
-            }
+        }
+        for (var j = 1; j <= col; j++)
+        {
+          $(".container").append("<div class = "cell"></div>");
         }
       });
 });
