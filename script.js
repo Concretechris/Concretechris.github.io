@@ -22,7 +22,7 @@ $(document).ready(function() {
         for (var i = 1; i <= rows; i++)
         {
           $(".new_container").append("<div></div>");
-          $("div").addClass("container");
+          $(this).addClass("container");
         }
       });
 });
