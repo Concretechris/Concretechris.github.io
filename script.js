@@ -24,6 +24,10 @@ $(document).ready(function() {
           $d = $("<div class = 'container'></div>");
           $(".new_container").append($d);
         }
+        for (var j =1 1 j <= col; j++)
+        {
+          $(".container").append("<div class = 'cell'></div>")
+        }
       });
 });
 
