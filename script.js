@@ -21,7 +21,7 @@ $(document).ready(function() {
         
         for (var i = 1; i <= rows; i++)
         {
-          $(".new_container").append("<p>What the fuck?!?</p>");
+          $(".new_container").append("<div><p>What the fuck?!?</p></div>");
         }
       });
 });
