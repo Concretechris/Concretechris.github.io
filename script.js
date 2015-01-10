@@ -21,7 +21,8 @@ $(document).ready(function() {
         
         for (var i = 1; i <= rows; i++)
         {
-          $(".new_container").append("<div></div>");
+          $d = $("<div class = "container"></div>");
+          $(".new_container").append($d);
           $(this).addClass("container");
         }
       });
