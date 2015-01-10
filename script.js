@@ -14,7 +14,8 @@ $(document).ready(function() {
         $(".cell").width("200px");
   });
       $("#reset").click(function(){
-        $("div").remove();
+        $(".container").remove();
+        $(".cell").remove();
       });
 });
 
