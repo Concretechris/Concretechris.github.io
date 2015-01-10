@@ -9,7 +9,9 @@ $(document).ready(function() {
     $(this).addClass("black");
   });
       $("button").click(function(){
-    $(".cell").removeClass("black");
+        $(".cell").removeClass("black");
+        $(".cell").height("200px");
+        $(".cell").width("200px");
   });
 });
 
