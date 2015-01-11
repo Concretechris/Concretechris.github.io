@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    for (var a = 1; a = 16; a++)
+    for (var a = 1; a < 16; a++)
     {
     $('body').append("<div class = 'new_container' width='960'></div>");
     }
