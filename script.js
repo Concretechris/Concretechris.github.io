@@ -15,7 +15,7 @@ $(document).ready(function() {
     {
       $c = $("<div class = 'cell'></div>");
       $(".container").append($c);
-      $(".cell").width((965/col - 2;
+      $(".cell").width((965/col - 2);
     }
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
