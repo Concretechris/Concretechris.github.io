@@ -5,25 +5,19 @@ $("#reset").click(function(){
     $(".cell").remove();
     var col = prompt("Please enter the number of columns: ");
     var rows = prompt("Please enter the number rows: ");
-
-    //$(".container").height(960/rows - 2);
-    $("<style type='text/css'> .container{ height: 960/rows - 2;} </style>").appendTo("head");
-    $("<style type='text/css'> .cell{ height: 960/col - 2;} </style>").appendTo("head");
-    
-    $c = $("<div class = 'cell'></div>");
-        $(".container").append($c);
-        $(".cell").width(960/col - 4);
-        $(".cell").height(960/col - 4);
     
     for (var i = 1; i < rows; i++)
     {
       $d = $("<div class = 'container'></div>");
       $(".new_container").append($d);
+      $(".container").height(960/rows - 2);
     }
     for (var j = 1; j <= col; j++)
     {
       $c = $("<div class = 'cell'></div>");
       $(".container").append($c);
+        $(".cell").width(960/col - 4);
+        $(".cell").height(960/col - 4);
     }
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
