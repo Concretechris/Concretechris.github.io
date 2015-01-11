@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $(document.ready(function(){
     for (var i = 1; i <= 16; i++)
     {
       $d = $("<div class = 'container'></div>");
