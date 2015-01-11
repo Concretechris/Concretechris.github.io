@@ -4,6 +4,8 @@ $(document).ready(function() {
     $(".cell").remove();
     var col = prompt("Please enter the number of columns: ");
     var rows = prompt("Please enter the number rows: ");
+    $(".container").css( "height", rows );
+    $(".cell").css("width", col);
     
     for (var i = 1; i <= rows; i++)
     {
