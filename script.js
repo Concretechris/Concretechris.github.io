@@ -6,11 +6,16 @@ $("#reset").click(function(){
     var col = prompt("Please enter the number of columns: ");
     var rows = prompt("Please enter the number rows: ");
     
-    $(".container").height(960/rows - 2);
-    $(".cell").width(960/col - 4);
-    $(".cell").height(960/col - 4);
+    $d = $("<div class = 'container'></div>");
+        $(".new_container").append($d);
+        $(".container").height(960/rows - 2);
     
-    for (var i = 1; i <= rows; i++)
+    $c = $("<div class = 'cell'></div>");
+        $(".container").append($c);
+        $(".cell").width(960/col - 4);
+        $(".cell").height(960/col - 4);
+    
+    for (var i = 1; i < rows; i++)
     {
       $d = $("<div class = 'container'></div>");
       $(".new_container").append($d);
