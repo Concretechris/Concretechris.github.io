@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('body').prepend("<div class = 'new_container' width='960'></div>");
+    $('body').append("<div class = 'new_container' width='960'></div>");
     
 $("#reset").click(function(){
     $(".container").remove();
