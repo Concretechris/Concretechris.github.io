@@ -26,4 +26,5 @@ button
 {
 	clear: left;
 	display: inline-block;
+	position: relative;
 }
