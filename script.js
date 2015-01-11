@@ -14,8 +14,9 @@ $(document).ready(function() {
     }
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
+    });
 });
-    $("#reset").click(function(){
+$("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
     var col = prompt("Please enter the number of columns: ");
