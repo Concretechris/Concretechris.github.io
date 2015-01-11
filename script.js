@@ -51,6 +51,3 @@ $("#reset").click(function(){
       $("#clear").click(function(){
         $(".cell").removeClass("black");
   });
-});
-
-//add spans function and global div/span variables
