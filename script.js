@@ -2,17 +2,17 @@ $(document).ready(function() {
     $("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
-    var col = prompt("Please enter the number of columns: ");
-    var rows = prompt("Please enter the number rows: ");
-    $(".container").css( "height", rows );
-    $(".cell").css("width", col);
+    $col = prompt("Please enter the number of columns: ");
+    $rows = prompt("Please enter the number rows: ");
+    $(".container").css( "height", $rows );
+    $(".cell").css("width", $col);
     
-    for (var i = 1; i <= rows; i++)
+    for (var i = 1; i <= $rows; i++)
     {
       $d = $("<div class = 'container'></div>");
       $(".new_container").append($d);
     }
-    for (var j = 1; j <= col; j++)
+    for (var j = 1; j <= $col; j++)
     {
       $c = $("<div class = 'cell'></div>");
       $(".container").append($c);
