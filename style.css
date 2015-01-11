@@ -11,7 +11,7 @@
 	float: left;
 	height: 100px;
 	width: 100px;
-	border: .5px solid black;
+	border: 1px solid black;
 	display: inline-block;
 	opacity: .2;
 }
