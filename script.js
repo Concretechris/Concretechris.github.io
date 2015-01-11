@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $(document.ready(function(){
     for (var i = 1; i <= 16; i++)
     {
       $d = $("<div class = 'container'></div>");
@@ -16,7 +15,6 @@ $(document).ready(function() {
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
     });
-});
 $("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
