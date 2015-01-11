@@ -9,13 +9,13 @@ $(document).ready(function() {
     {
       $d = $("<div class = 'container'></div>");
       $(".new_container").append($d);
-      $(".container").height(rows);
+      $(".container").height(965/rows);
     }
     for (var j = 1; j <= col; j++)
     {
       $c = $("<div class = 'cell'></div>");
       $(".container").append($c);
-      $(".cell").height(col);
+      $(".cell").height(965/col);
     }
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
