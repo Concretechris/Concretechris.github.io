@@ -1,6 +1,8 @@
 $(document).ready(function() {
+    for (var a = 1; a = 16; a++)
+    {
     $('body').append("<div class = 'new_container' width='960'></div>");
-    
+    }
     $('.new_container').append("<div class = 'container'></div>");
     
 $("#reset").click(function(){
