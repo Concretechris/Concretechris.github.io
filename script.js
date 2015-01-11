@@ -15,6 +15,7 @@ $(document).ready(function() {
       $(".cell").mouseenter(function(){
         $(this).addClass("black");
     });
+});
 $("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
