@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    $('body').append("<div class = 'new_container' width='960'></div>");
-    $('.new_container').append("<div class = 'container'></div>");
     
 $("#reset").click(function(){
     $(".container").remove();
