@@ -1,4 +1,22 @@
 $(document).ready(function() {
+    $('body').prepend("<div class = 'new_container'></div>");
+    
+    $('.new_container').prepend(
+        for (var a = 1; a =16; a++)
+            {
+                $a = $("<div class = 'container'></div>");
+                $(".new_container").append($a);
+                $(".container").height(960/16);
+            }
+    )
+    $('.container').prepend(
+        for (var b = 1; b =16; b++)
+            {
+                $b = $("<div class = 'container'></div>");
+                $(".new_container").append($b);
+                $(".container").height(960/16);
+            }
+    )
     
 $("#reset").click(function(){
     $(".container").remove();
