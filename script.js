@@ -33,8 +33,6 @@ $(document).ready(function() {
   });
       $("#clear").click(function(){
         $(".cell").removeClass("black");
-        $(".cell").height("200px");
-        $(".cell").width("200px");
   });
 });
 
