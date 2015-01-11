@@ -1,5 +1,17 @@
 $(document).ready(function() {
-    
+  $("body").append("<div class = 'new_container' width='960'></div>");
+  
+  for (var a = 1; a <= 16; a++)
+  {
+  $(".new_container").append("<div class = 'container'></div>");
+  $(".container").height(960/16 - 2);
+  }
+  for (var b = 1; b <= 16; b++)
+  {
+  $(".container").append("<div class = 'cell'></div>");
+  $(".cell").height(960/16 - 4);
+  $(".cell").width(960/16 - 4);  
+  } 
 $("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
