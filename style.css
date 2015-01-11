@@ -27,4 +27,10 @@ button
 	clear: left;
 	display: inline-block;
 	position: relative;
+	margin-bottom: 10px;
+}
+
+#rest
+{
+	margin-left: 10px;
 }
