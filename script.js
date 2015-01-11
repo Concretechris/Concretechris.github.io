@@ -2,10 +2,10 @@ $(document).ready(function() {
     $("#reset").click(function(){
     $(".container").remove();
     $(".cell").remove();
-    $col = prompt("Please enter the number of columns: ");
-    $rows = prompt("Please enter the number rows: ");
-    $(".container").css( "height", "$rows" );
-    $(".cell").css("width", "$col");
+    var col = prompt("Please enter the number of columns: ");
+    var rows = prompt("Please enter the number rows: ");
+    $(".container").css( "height", col );
+    $(".cell").css("width", rows);
     
     for (var i = 1; i <= $rows; i++)
     {
